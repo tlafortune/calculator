@@ -1,14 +1,13 @@
 
-
 function seeDisplay(value) {
     document.getElementById('display').value += value ;
 }
 
-function clearDisplay() {
+function clear() {
     document.getElementById('display').value = '';
 }
 
-function calculateResult() {
+function result() {
     try {
         var result = eval(document.getElementById('display').value);
         document.getElementById('display').value = result;
@@ -16,3 +15,4 @@ function calculateResult() {
         document.getElementById('display').value = 'Error';
     }
 }
+
