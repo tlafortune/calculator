@@ -29,6 +29,13 @@ body {
     user-select: pointer;
 }
 
+#display {
+    color: #1a1b1a;
+    font-size: 20;
+    font-weight: bolder;
+}
+
+
 button {
     background-color: #1a1b1a;
     color: white;
